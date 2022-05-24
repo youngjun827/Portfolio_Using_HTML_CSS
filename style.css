@@ -19,7 +19,7 @@ body {
 
 /* --------------- */
 
-@media (min-width: 500px) {
+@media (min-width: 300px) {
     .Introduction {
         height: 100%;
         display: flex;
@@ -56,6 +56,31 @@ body {
         /*border: 2px solid red;*/
     }
 }
+
+@media (min-width: 320px) {
+    div h1, nav {
+        min-width: 500px;
+    }
+    .p2 {
+        min-width: 505px;
+    }
+    .Introduction {
+        align-content: center;
+    }
+    div h1 {
+        width: 63%;
+        /*font-size: 1.95rem;*/
+        font-size: 2.21rem;
+        margin-top: -1rem;
+    }
+    nav {
+        width: 63%;
+    }
+    .p2 {
+        width: 63%;
+    }
+}
+
 
 /* --------------- */
 
