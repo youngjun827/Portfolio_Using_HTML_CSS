@@ -59,10 +59,10 @@ body {
 
 @media (min-width: 320px) {
     div h1, nav {
-        min-width: 500px;
+        min-width: 300px;
     }
     .p2 {
-        min-width: 505px;
+        min-width: 305px;
     }
     .Introduction {
         align-content: center;
